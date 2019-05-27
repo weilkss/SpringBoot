@@ -1,3 +1,18 @@
 spring:
   profiles:
     active: dev
+
+server:
+  port: 8081
+
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.example.entity
+
+#showSql
+logging:
+  level:
+    com:
+      example:
+        mapper: debug

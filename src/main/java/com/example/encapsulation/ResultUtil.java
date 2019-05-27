@@ -54,16 +54,16 @@ public class ResultUtil<T> implements Serializable {
     /**
      * 返回失败 error
      */
-    public static ResultUtil error(Integer code, String data, String msg) {
+    public static ResultUtil error(Integer code, String data, String message) {
         ResultUtil result = new ResultUtil();
         result.setStatus(code);
-        result.setMessage(msg);
+        result.setMessage(message);
         result.setData(data);
         return result;
     }
 
-    public static ResultUtil error(Integer code, String msg) {
-        return ResultUtil.error(code, null, msg);
+    public static ResultUtil error(Integer code, String message) {
+        return ResultUtil.error(code, null, message);
     }
 
     public static ResultUtil error() {

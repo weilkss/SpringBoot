@@ -1,4 +1,4 @@
-package com.example.mapper;
+package com.example.dao;
 
 import com.example.entity.UserEntity;
 import org.apache.ibatis.annotations.Param;
@@ -10,7 +10,7 @@ import java.util.List;
  * @Author created by wxb007 on 2019/5/8 0008 11:29
  */
 @Repository
-public interface UserMapper {
+public interface UserDao {
     /**
      * 获取所有用户
      */

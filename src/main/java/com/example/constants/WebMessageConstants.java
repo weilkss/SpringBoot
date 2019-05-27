@@ -20,4 +20,5 @@ public interface WebMessageConstants {
      */
     String UPLOAD_FILE_MSG_5001 = "文件格式错误,目前只支持jpg和png格式";
     String UPLOAD_FILE_MSG_5002 = "允许最大上传为10MB";
+    String UPLOAD_FILE_MSG_5003 = "请选择你要上传的文件";
 }

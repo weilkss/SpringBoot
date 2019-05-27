@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import javax.servlet.MultipartConfigElement;
 
 
-@MapperScan("com.example.mapper") //扫描的mapper
+@MapperScan("com.example.dao") //扫描的mapper
 @Configuration
 @SpringBootApplication
 public class DemoApplication {
